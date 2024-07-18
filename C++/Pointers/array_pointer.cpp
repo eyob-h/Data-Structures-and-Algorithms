@@ -25,5 +25,7 @@ int main()
     for (int i = 0; i < 5; i++)
         cout << h_ptr[i] << endl;
 
+    delete[] h_ptr;
+
     return 0;
 }
