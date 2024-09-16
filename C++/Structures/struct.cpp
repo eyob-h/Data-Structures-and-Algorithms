@@ -8,6 +8,12 @@ struct Student
     int ID;
 };
 
+struct Car
+{
+    int wheels;
+    string model;
+};
+
 int main()
 {
 
@@ -19,5 +25,11 @@ int main()
     struct Student Nahom = {"Nahom Reta", 24, 88100};
 
     cout << Samuel.fullName << endl;
+
+    struct Car Mercedes = {4, "benz"};
+    Mercedes.wheels = 5;
+
+    cout << Mercedes.model << endl;
+    cout << Mercedes.wheels << endl;
     return 0;
 }
